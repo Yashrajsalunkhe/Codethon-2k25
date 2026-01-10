@@ -10,7 +10,7 @@
 
 **A modern, responsive web application for Codethon 2025 - The Ultimate Coding Competition**
 
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
+[Live Demo](codathon.adcet.ac.in/) • [Report Bug](#) • [Request Feature](#)
 
 </div>
 
