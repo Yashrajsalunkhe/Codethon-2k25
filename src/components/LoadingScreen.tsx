@@ -57,7 +57,7 @@ const LoadingScreen = () => {
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-foreground mb-2">
             <span className="font-audiowide text-accent-primary">Codathon</span>
-            <span className="text-accent-secondary ml-2">2025</span>
+            <span className="text-accent-secondary ml-2">2026</span>
           </h1>
           <p className="text-muted-foreground">ADCET Programming Competition</p>
         </div>

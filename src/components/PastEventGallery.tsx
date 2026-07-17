@@ -23,7 +23,7 @@ const PastEventGallery = () => {
   const pastEvents = [
     {
       year: "2024",
-      title: "Codathon 2024: The Ultimate Coding Battle",
+      title: "Codathon 2024 2025&: The Ultimate Coding Battle",
       date: "September, 2024",
       participants: 500,
       location: "ADCET Campus, Ashta",

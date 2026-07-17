@@ -113,7 +113,7 @@ const EventCalendarIntegration = () => {
       return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
     };
 
-    const title = encodeURIComponent(`Codathon 2025 - ${event.title}`);
+    const title = encodeURIComponent(`Codathon 2026 - ${event.title}`);
     const description = encodeURIComponent(`${event.description}\n\nLocation: ${event.location}\nDuration: ${event.duration}\n\nFor more info: https://codathon2025.adcet.ac.in`);
     const location = encodeURIComponent(event.location);
 
@@ -140,18 +140,18 @@ END:VCALENDAR`;
       case 'ics':
         const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Codathon 2025//EN
+PRODID:-//Codathon 2026//EN
 BEGIN:VEVENT
-UID:${event.id}@codathon2025.adcet.ac.in
+UID:${event.id}@codathon2026.adcet.ac.in
 DTSTAMP:${formatDate(new Date())}
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}
-SUMMARY:Codathon 2025 - ${event.title}
+SUMMARY:Codathon 2026 - ${event.title}
 DESCRIPTION:${event.description}\\n\\nLocation: ${event.location}\\nDuration: ${event.duration}
 LOCATION:${event.location}
 BEGIN:VALARM
 TRIGGER:-PT1H
-DESCRIPTION:Codathon 2025 reminder - ${event.title} starts in 1 hour
+DESCRIPTION:Codathon 2026 reminder - ${event.title} starts in 1 hour
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
@@ -203,7 +203,7 @@ END:VCALENDAR`;
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Never miss a moment! Add Codathon 2025 events to your calendar and stay prepared
+            Never miss a moment! Add Codathon 2026 events to your calendar and stay prepared
           </p>
         </div>
 
@@ -236,8 +236,8 @@ END:VCALENDAR`;
         {/* Countdown to Next Event */}
         <div className="max-w-md mx-auto mb-16">
           <CountdownTimer 
-            targetDate="2025-09-05T11:00:00"
-            title="Time Until Codathon 2025 Begins"
+            targetDate="2026-09-05T11:00:00"
+            title="Time Until Codathon 2026 Begins"
           />
         </div>
 

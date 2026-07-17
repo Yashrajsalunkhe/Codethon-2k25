@@ -7,7 +7,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "Who can participate in Codathon 2025?",
+      question: "Who can participate in Codathon 2026?",
       answer: "Any student from engineering colleges, universities, or programming enthusiasts can participate. This is a national-level competition open to all skill levels from beginners to advanced programmers."
     },
     {
@@ -44,7 +44,7 @@ const FAQ = () => {
     },
     {
       question: "Can I participate as a team?",
-      answer: "Codathon 2025 is an individual competition. Each participant competes independently across all three rounds."
+      answer: "Codathon 2026 is an individual competition. Each participant competes independently across all three rounds."
     }
   ];
 
@@ -69,7 +69,7 @@ const FAQ = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Everything you need to know about Codathon 2025. Can't find what you're looking for? 
+            Everything you need to know about Codathon 2026. Can't find what you're looking for? 
             <a 
               href="tel:+917768807185" 
               className="text-accent-primary hover:text-accent-primary/80 ml-1 transition-colors"
@@ -128,7 +128,7 @@ const FAQ = () => {
             <div className="relative bg-card border border-border rounded-xl p-6">
               <h3 className="text-xl font-semibold text-foreground mb-2">Still have questions?</h3>
               <p className="text-muted-foreground mb-4">
-                Our team is here to help you with any queries about Codathon 2025
+                Our team is here to help you with any queries about Codathon 2026
               </p>
               <a 
                 href="tel:+917768807185"
