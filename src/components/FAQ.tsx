@@ -12,7 +12,7 @@ const FAQ = () => {
     },
     {
       question: "What programming languages are allowed?",
-      answer: "You can code in C, C++, Python, or Java. Choose the language you're most comfortable with for all three rounds of the competition."
+      answer: "You can code in C, C++, Python, or Java. Choose the language you're most comfortable with for all rounds of the competition."
     },
     {
       question: "Is there any registration fee?",
@@ -20,16 +20,16 @@ const FAQ = () => {
     },
     {
       question: "What are the competition dates and timings?",
-      answer: "Round 1 (Online MCQ): 8 Sept 2025, 11:00 AM - 7:00 PM IST (8 hours). Round 2 (Offline): 15 Sept 2025, 10:00 AM - 1:00 PM IST at ADCET campus. Round 3 (Final): 15 Sept 2025, 2:00 PM - 5:00 PM IST at ADCET campus, Ashta."
+      answer: "Round 1 (Coding Eligibility Test): 28 Aug 2026, 10:00 AM - 1:00 PM IST. Round 2 (Coding Marathon): 28 Aug 2026, 2:00 PM - 5:00 PM IST. Round 3 (Company Challenge Arena): 29 Aug 2026, 10:00 AM - 1:00 PM IST. Round 4 (Interviews & Internship Release): 29 Aug 2026, 2:00 PM - 5:00 PM IST. Rounds 1 & 2 on Day 1, Rounds 3 & 4 on Day 2 at ADCET campus, Ashta."
     },
     {
       question: "How many participants will qualify for each round?",
-      answer: "Round 1: Top 200+ participants qualify for Round 2. Round 2: Top 50 participants qualify for the final Round 3. Winners receive internship opportunities from IT Industries."
-    },
+     answer: "Round 1 & 2 (Day 1) narrow the field down to the Top 100 engineers. They advance to Round 3 & 4 on Day 2, where top performers receive internship offers from participating companies."
+     },
     {
       question: "Do I need to come to the college for Round 2 & 3?",
-      answer: "Yes, Round 2 and Round 3 are offline rounds conducted on the same day (15 Sept 2025) at ADCET campus in Ashta, Sangli, Maharashtra. Accommodation arrangements can be discussed upon qualification."
-    },
+      answer: "Yes, all 4 rounds are conducted on campus (28-29 Aug 2026) at ADCET, Ashta, Sangli, Maharashtra. Accommodation arrangements can be discussed upon qualification."
+     },
     {
       question: "What topics should I prepare for?",
       answer: "Round 1: Basic programming concepts in C, C++, Python, Java. Round 2: Data Structures and Algorithms, problem-solving. Round 3: Industry-based problems evaluated by IT Industries."

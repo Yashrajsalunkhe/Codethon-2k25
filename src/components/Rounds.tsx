@@ -2,50 +2,62 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Brain, Sword, Crown, Monitor, Code2, Trophy, ChevronRight, Zap } from "lucide-react";
 
 const Rounds = () => {
-  const rounds = [
-    {
-      title: "Red Light Green Light",
-      icon: Brain,
-      description: "Build your foundation",
-      features: [
-        "Online MCQ Test",
-        "C, C++, Python, Java concepts", 
-        "Top 200+ qualify",
-        "8 Sept 2025, 11:00 AM - 7:00 PM"
-      ],
-      color: "from-blue-500/20 to-blue-600/20",
-      iconColor: "text-blue-400",
-      borderColor: "border-blue-500/30"
-    },
-    {
-      title: "Battle Arena", 
-      icon: Sword,
-      description: "Prove your skills",
-      features: [
-        "Offline coding at ADCET campus",
-        "DSA and problem-solving (C, C++, Python, Java)",
-        "Top 50 qualify for finals",
-        "15 Sept 2025, 10:00 AM - 1:00 PM"
-      ],
-      color: "from-purple-500/20 to-purple-600/20",
-      iconColor: "text-purple-400", 
-      borderColor: "border-purple-500/30"
-    },
-    {
-      title: "Victory Quest",
-      icon: Crown,
-      description: "Claim your victory", 
-      features: [
-        "Final round by IT Industries",
-        "Industry-level problems",
-        "Internship opportunities",
-        "15 Sept 2025, 2:00 PM - 5:00 PM"
-      ],
-      color: "from-amber-500/20 to-amber-600/20",
-      iconColor: "text-amber-400",
-      borderColor: "border-amber-500/30"
-    }
-  ];
+const rounds = [
+  {
+    title: "Coding Eligibility Test",
+    icon: Brain,
+    description: "Prove you belong",
+    features: [
+      "Aptitude, Technical MCQs & Programming",
+      "90 minutes",
+      "Day 1 · 28 Aug 2026, 10:00 AM - 1:00 PM"
+    ],
+    color: "from-blue-500/20 to-blue-600/20",
+    iconColor: "text-blue-400",
+    borderColor: "border-blue-500/30"
+  },
+  {
+    title: "Coding Marathon",
+    icon: Sword,
+    description: "Prove your skills",
+    features: [
+      "10 programming problems, solo coding",
+      "Real-time leaderboard",
+      "Top 100 engineers qualify for Day 2",
+      "Day 1 · 28 Aug 2026, 2:00 PM - 5:00 PM"
+    ],
+    color: "from-purple-500/20 to-purple-600/20",
+    iconColor: "text-purple-400",
+    borderColor: "border-purple-500/30"
+  },
+  {
+    title: "Company Challenge Arena",
+    icon: Crown,
+    description: "Solve real problems",
+    features: [
+      "Pick your preferred company",
+      "Live coding evaluation on industry problems",
+      "Day 2 · 29 Aug 2026, 10:00 AM - 1:00 PM"
+    ],
+    color: "from-amber-500/20 to-amber-600/20",
+    iconColor: "text-amber-400",
+    borderColor: "border-amber-500/30"
+  },
+  {
+    title: "Interviews & Internship Release",
+    icon: Trophy,
+    description: "Claim your victory",
+    features: [
+      "Technical Interview (30-45 min) by company experts",
+      "HR Interview (20-30 min) — culture fit & alignment",
+      "Top performers receive an internship",
+      "Day 2 · 29 Aug 2026, 2:00 PM - 5:00 PM"
+    ],
+    color: "from-green-500/20 to-green-600/20",
+    iconColor: "text-green-400",
+    borderColor: "border-green-500/30"
+  }
+];
 
   return (
     <section className=" relative overflow-hidden">
@@ -72,7 +84,7 @@ const Rounds = () => {
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-accent-primary to-transparent mx-auto mt-8" />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-20">
           {rounds.map((round, index) => {
             const IconComponent = round.icon;
             return (

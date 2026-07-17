@@ -5,31 +5,39 @@ import { QrCode, ExternalLink, Phone, Mail, User, Sparkles, Clock, CheckCircle }
 
 const Registration = () => {
   const contacts = [
-    {
-      name: "Prof. Swapnil Gramopadhye",
-      phone: null,
-      email: "smg_cse@adcet.in",
-      role: "Faculty Co-Ordinator",
-      icon: User,
-      gradient: "from-blue-500/20 to-blue-600/10"
-    },
-    {
-      name: "Prof. Prachi Pathak", 
-      phone: null,
-      email: "psp_iot@adcet.in",
-      role: "Faculty Co-Ordinator",
-      icon: User,
-      gradient: "from-purple-500/20 to-purple-600/10"
-    },
-    {
-      name: "Mr. Gaurav Kumbhare",
-      phone: "+91 77688 07185", 
-      email: "kumbharegaurav100@gmail.com",
-      role: "Student Co-Ordinator",
-      icon: User,
-      gradient: "from-green-500/20 to-green-600/10"
-    }
-  ];
+  {
+    name: "Sandip Magdum",
+    phone: "+91 80557 28941",
+    email: null,
+    role: "Dean, TPO ADCET Ashta",
+    icon: User,
+    gradient: "from-blue-500/20 to-blue-600/10"
+  },
+  {
+    name: "Prof. Swapnil Gramopadhye",
+    phone: "+91 97667 03147",
+    email: "smg_cse@adcet.in",
+    role: "TPO ADCET Ashta",
+    icon: User,
+    gradient: "from-purple-500/20 to-purple-600/10"
+  },
+  {
+    name: "Gaurav Kumbhare",
+    phone: "+91 77688 07185",
+    email: "kumbharegaurav100@gmail.com",
+    role: "Student Coordinator",
+    icon: User,
+    gradient: "from-amber-500/20 to-amber-600/10"
+  },
+  {
+    name: "Abhay Raut",
+    phone: "+91 85307 50855",
+    email: "abhayraut37@gmail.com",
+    role: "Student Coordinator",
+    icon: User,
+    gradient: "from-green-500/20 to-green-600/10"
+  }  
+];
 
   return (
     <section className="py-32 relative overflow-hidden">
@@ -43,7 +51,7 @@ const Registration = () => {
         <div className="text-center mb-20 animate-slide-up">
           <div className="inline-flex items-center gap-3 bg-gradient-to-r from-red-500/20 to-orange-500/20 border border-red-500/30 rounded-full px-6 py-3 text-red-400 text-sm backdrop-blur-sm mb-8 hover:scale-105 transition-transform duration-300">
             <Clock className="w-5 h-5 animate-spin" />
-            <span className="font-medium">Registration Deadline: 5 Sept 2025, 11:59 PM </span>
+            <span className="font-medium">Registrations Open: 1 Aug 2026 · Close: 21 Aug 2026, 11:59 PM</span>
             <Badge variant="destructive" className="ml-2 animate-bounce">URGENT</Badge>
           </div>
           <h2 className="text-5xl md:text-6xl font-light mb-8 tracking-tight">
@@ -81,7 +89,7 @@ const Registration = () => {
                     <div className="relative w-48 h-48 bg-white border-2 border-accent-primary/30 rounded-2xl flex items-center justify-center group-hover/qr:scale-105 transition-all duration-300 p-4">
                       <img 
                         src="/qr-code.png" 
-                        alt="Registration QR Code - Scan to register for Codathon 2025" 
+                        alt="Registration QR Code - Scan to register for Codathon 2026" 
                         className="w-full h-full object-contain rounded-lg"
                       />
                     </div>

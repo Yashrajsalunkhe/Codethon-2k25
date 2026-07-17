@@ -19,9 +19,9 @@ const Rules = () => {
       icon: Monitor,
       color: "accent-secondary", 
       rules: [
-        "Round I: Online MCQ Test (120 qualify)",
-        "Round II: Offline Coding (50 qualify)",
-        "Round III: Industry Problems by IT Companies"
+      "Round I & II: Coding Eligibility Test + Marathon (Top 100 qualify)",
+      "Round III: Company Challenge Arena",
+      "Round IV: Technical + HR Interview"
       ]
     },
     {
@@ -31,7 +31,7 @@ const Rules = () => {
       rules: [
         "Absence in Round I = Elimination",
         "Round II & III conducted offline",
-        "Registration deadline: 5 Sept 2025"
+        "Registration deadline: 21 Aug 2026"
       ]
     },
     {

@@ -27,9 +27,9 @@ const Footer = () => {
               <div className="p-2 rounded-lg bg-accent-primary/20 border border-accent-primary/30">
                 <Calendar className="w-4 h-4 text-accent-primary" />
               </div>
-              <span className="font-light">8 Sept - Round 1<br></br>
-                15 Sept - Round 2 & 3
-              </span>
+              <span className="font-light">28 Aug - Round 1 & 2<br></br>
+                29 Aug - Round 3 & 4
+                  </span>
             </div>
           </div>
 

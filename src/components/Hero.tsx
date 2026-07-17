@@ -9,32 +9,39 @@ const Hero = () => {
 
   const cardDetails = {
     rounds: {
-      title: "Competition Rounds",
-      description: "The competition consists of 3 challenging rounds designed to test your coding skills progressively.",
-      details: [
-        {
-          round: "Round 1: Red Light Green Light",
-          description: "Online MCQ based test on basic C, C++, Python, Java and programming concepts. Top 200+ participants qualify for Round 2.",
-          duration: "8 hours (11:00 AM - 7:00 PM IST)",
-          type: "Online Screening Round",
-          date: "8 Sept 25"
-        },
-        {
-          round: "Round 2: Battle Arena",
-          description: "Offline coding round at ADCET campus focusing on DSA and problem-solving. Top 50 participants qualify for final round.",
-          duration: "3 hours (10:00 AM - 1:00 PM IST)", 
-          type: "Semi-Final Coding Round",
-          date: "15 Sept 25"
-        },
-        {
-          round: "Round 3: Victory Quest",
-          description: "Final coding round conducted and evaluated by IT Industries with industry-based problem statements. Winners receive internship opportunities.",
-          duration: "3 hours (2:00 PM - 5:00 PM IST)",
-          type: "Final Round",
-          date: "15 Sept 25"
-        }
-      ]
+  title: "Competition Rounds",
+  description: "The competition consists of 4 performance-based rounds designed to test your skills progressively.",
+  details: [
+    {
+      round: "Round 1: Coding Eligibility Test",
+      description: "Aptitude, technical MCQs and programming fundamentals.",
+      duration: "90 minutes (10:00 AM - 1:00 PM IST)",
+      type: "Online Screening Round",
+      date: "28 Aug 26"
     },
+    {
+      round: "Round 2: Coding Marathon",
+      description: "10 programming problems, solo coding, real-time leaderboard. Top 100 engineers qualify for Day 2.",
+      duration: "3 hours (2:00 PM - 5:00 PM IST)",
+      type: "Elimination Round",
+      date: "28 Aug 26"
+    },
+    {
+      round: "Round 3: Company Challenge Arena",
+      description: "Choose your preferred company and solve real industry problems with live coding evaluation.",
+      duration: "3 hours (10:00 AM - 1:00 PM IST)",
+      type: "Industry Round",
+      date: "29 Aug 26"
+    },
+    {
+      round: "Round 4: Interviews & Internship Release",
+      description: "Technical Interview (30-45 min) followed by HR Interview (20-30 min). Top performers receive an internship.",
+      duration: "2:00 PM - 5:00 PM IST",
+      type: "Final Round",
+      date: "29 Aug 26"
+    }
+  ]
+},
     languages: {
       title: "Programming Languages",
       description: "Choose your weapon! Code in any of these popular programming languages.",
@@ -112,8 +119,8 @@ const Hero = () => {
         },
         {
           criteria: "Registration Deadline",
-          description: "Must register through official Unstop platform before 07 Sep 25, 11:59 PM IST.",
-          requirement: "Register by 07 Sep 25"
+          description: "Registrations open 1 Aug 2026 and close 21 Aug 2026, 11:59 PM IST.",
+          requirement: "Register by 21 Aug 2026"
         }
       ]
     }
@@ -233,7 +240,7 @@ const Hero = () => {
               <span className="bg-gradient-to-r py-4 from-[#FF7A01] via-[#FFB366] to-[#727889] text-transparent bg-clip-text font-mono">Codathon</span>
               <br />
               
-              <span className="bg-gradient-to-r py-4 from-[#0767FB] to-[#4A90E2] text-transparent bg-clip-text font-mono">2025</span>
+              <span className="bg-gradient-to-r py-4 from-[#0767FB] to-[#4A90E2] text-transparent bg-clip-text font-mono">2026</span>
             </h1>
             
             {/* Code-themed decorations */}
@@ -332,7 +339,7 @@ const Hero = () => {
                 variant="default" 
                 size="lg" 
                 className="relative px-10 py-4 bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium text-lg rounded-xl transition-all duration-300 group-hover:scale-105 shadow-xl"
-                onClick={() => window.open('https://unstop.com/p/codathon-2025-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
+                onClick={() => window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
               >
                 Register Now
                 <ArrowRight className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform duration-300" />
@@ -485,7 +492,7 @@ const Hero = () => {
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-r from-accent-primary to-accent-secondary rounded-xl blur-lg group-hover:blur-xl transition-all duration-300 opacity-50 dark:opacity-70" />
                     <Button
-                      onClick={() => window.open('https://unstop.com/p/codathon-2025-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
+                      onClick={() => window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
                       className="relative px-10 py-4 bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium text-lg rounded-xl transition-all duration-300 group-hover:scale-105 shadow-xl"
                     >
                       Register for Competition
