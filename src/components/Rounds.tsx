@@ -10,7 +10,8 @@ const Rounds = () => {
       features: [
         "Aptitude, Technical MCQs & Programming",
         "90 minutes",
-        "Day 1 · 28 Aug 2026, 10:00 AM - 1:00 PM"
+        "Day 1 · 28 Aug 2026, 10:00 AM - 1:00 PM",
+        "all round conduted in adcet campus"
       ],
       color: "from-blue-500/20 to-blue-600/20",
       iconColor: "text-blue-400",
@@ -25,6 +26,7 @@ const Rounds = () => {
         "Real-time leaderboard",
         "Top 100 engineers qualify for Day 2",
         "Day 1 · 28 Aug 2026, 2:00 PM - 5:00 PM"
+        
       ],
       color: "from-purple-500/20 to-purple-600/20",
       iconColor: "text-purple-400",

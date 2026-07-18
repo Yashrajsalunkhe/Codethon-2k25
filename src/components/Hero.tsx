@@ -206,7 +206,7 @@ const Hero = () => {
                     </p>
                     <div className="flex flex-row justify-center items-center gap-4 mt-2">
                       <p className="text-muted-foreground/80 text-xs">
-                        Accredited by NAAC 'A+' Grade, Bangalore
+                        Accredited by NAAC 'A++' Grade, Bangalore
                       </p>
                       <span className="text-muted-foreground/60">•</span>
                       <p className="text-accent-secondary text-xs font-medium">

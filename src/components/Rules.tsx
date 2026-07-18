@@ -8,7 +8,7 @@ const Rules = () => {
       icon: Users,
       color: "accent-primary",
       rules: [
-        "Only B.Tech students graduating in 2026",
+        "Only B.Tech students graduating in 2027 are eligible",
         "Individual participation only",
         "50/- Rs registration fee",
         "All engineering branches eligible"
@@ -115,7 +115,7 @@ const Rules = () => {
                       <div className="flex items-center gap-3">
                         <div className="w-3 h-3 rounded-full bg-red-500 dark:bg-red-400" />
                         <span className="text-lg font-bold text-red-700 dark:text-red-200">
-                          Only B.Tech Final Year Students
+                          Only B.Tech Final Year Students(2027 pass Out Students) are Eligible
                         </span>
                       </div>
                       <div className="flex items-center gap-3">
