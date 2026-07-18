@@ -58,13 +58,6 @@ const Benefits = () => {
       description: "Pune, Mumbai, Kolhapur IT Industries",
       gradient: "from-cyan-500/20 to-cyan-600/10",
       iconColor: "text-cyan-400"
-    },
-    {
-      icon: Target,
-      title: "Personal Growth", 
-      description: "Challenge yourself and achieve new milestones",
-      gradient: "from-indigo-500/20 to-indigo-600/10",
-      iconColor: "text-indigo-400"
     }
   ];
 
