@@ -152,19 +152,19 @@ const Rules = () => {
                 Competition <span className="font-mono text-accent-primary bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent">Flow</span>
               </h3>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-light leading-relaxed">
-                Your journey through the three-round competition process
+                Your journey through the four-round competition process
               </p>
               <div className="w-24 h-px bg-gradient-to-r from-transparent via-accent-primary to-transparent mx-auto mt-8" />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Card className="text-center border-2 border-green-500/50 dark:border-green-500/30 bg-green-50/80 dark:bg-green-500/5 shadow-xl dark:shadow-lg hover:shadow-2xl dark:hover:shadow-xl transition-all duration-300">
                 <CardContent className="py-8">
                   <div className="w-12 h-12 rounded-full bg-green-500/30 dark:bg-green-500/20 border-2 border-green-500/60 dark:border-green-500/40 flex items-center justify-center mx-auto mb-4 shadow-lg dark:shadow-md">
                     <span className="text-2xl font-bold text-green-600 dark:text-green-400">1</span>
                   </div>
                   <h4 className="text-xl font-bold text-foreground mb-2">Round I</h4>
-                  <p className="text-green-600 dark:text-green-300 font-bold mb-2">Online MCQ</p>
-                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">Elimination round</p>
+                  <p className="text-green-600 dark:text-green-300 font-bold mb-2">Eligibility Test</p>
+                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">Online MCQ Round</p>
                 </CardContent>
               </Card>
 
@@ -174,8 +174,8 @@ const Rules = () => {
                     <span className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">2</span>
                   </div>
                   <h4 className="text-xl font-bold text-foreground mb-2">Round II</h4>
-                  <p className="text-yellow-600 dark:text-yellow-300 font-bold mb-2">Offline Coding</p>
-                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">Problem-Solving round</p>
+                  <p className="text-yellow-600 dark:text-yellow-300 font-bold mb-2">Coding Marathon</p>
+                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">Top 100 Qualify</p>
                 </CardContent>
               </Card>
 
@@ -185,8 +185,19 @@ const Rules = () => {
                     <span className="text-2xl font-bold text-accent-primary">3</span>
                   </div>
                   <h4 className="text-xl font-bold text-foreground mb-2">Round III</h4>
-                  <p className="text-accent-primary font-bold mb-2">Final Assessment</p>
-                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">IT Industries Problems</p>
+                  <p className="text-accent-primary font-bold mb-2">Company Challenge Arena</p>
+                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">Industry Problems</p>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center border-2 border-purple-500/50 dark:border-purple-500/30 bg-purple-50/80 dark:bg-purple-500/5 shadow-xl dark:shadow-lg hover:shadow-2xl dark:hover:shadow-xl transition-all duration-300">
+                <CardContent className="py-8">
+                  <div className="w-12 h-12 rounded-full bg-purple-500/30 dark:bg-purple-500/20 border-2 border-purple-500/60 dark:border-purple-500/40 flex items-center justify-center mx-auto mb-4 shadow-lg dark:shadow-md">
+                    <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">4</span>
+                  </div>
+                  <h4 className="text-xl font-bold text-foreground mb-2">Round IV</h4>
+                  <p className="text-purple-600 dark:text-purple-300 font-bold mb-2">Interviews & Internship</p>
+                  <p className="text-sm text-foreground/80 dark:text-muted-foreground font-semibold">Tech + HR Interview</p>
                 </CardContent>
               </Card>
             </div>

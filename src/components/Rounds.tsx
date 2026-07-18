@@ -1,63 +1,63 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brain, Sword, Crown, Monitor, Code2, Trophy, ChevronRight, Zap } from "lucide-react";
+import { Brain, Sword, Crown, Monitor, Code2, Trophy, ChevronRight, Zap, Users } from "lucide-react";
 
 const Rounds = () => {
-const rounds = [
-  {
-    title: "Coding Eligibility Test",
-    icon: Brain,
-    description: "Prove you belong",
-    features: [
-      "Aptitude, Technical MCQs & Programming",
-      "90 minutes",
-      "Day 1 · 28 Aug 2026, 10:00 AM - 1:00 PM"
-    ],
-    color: "from-blue-500/20 to-blue-600/20",
-    iconColor: "text-blue-400",
-    borderColor: "border-blue-500/30"
-  },
-  {
-    title: "Coding Marathon",
-    icon: Sword,
-    description: "Prove your skills",
-    features: [
-      "10 programming problems, solo coding",
-      "Real-time leaderboard",
-      "Top 100 engineers qualify for Day 2",
-      "Day 1 · 28 Aug 2026, 2:00 PM - 5:00 PM"
-    ],
-    color: "from-purple-500/20 to-purple-600/20",
-    iconColor: "text-purple-400",
-    borderColor: "border-purple-500/30"
-  },
-  {
-    title: "Company Challenge Arena",
-    icon: Crown,
-    description: "Solve real problems",
-    features: [
-      "Pick your preferred company",
-      "Live coding evaluation on industry problems",
-      "Day 2 · 29 Aug 2026, 10:00 AM - 1:00 PM"
-    ],
-    color: "from-amber-500/20 to-amber-600/20",
-    iconColor: "text-amber-400",
-    borderColor: "border-amber-500/30"
-  },
-  {
-    title: "Interviews & Internship Release",
-    icon: Trophy,
-    description: "Claim your victory",
-    features: [
-      "Technical Interview (30-45 min) by company experts",
-      "HR Interview (20-30 min) — culture fit & alignment",
-      "Top performers receive an internship",
-      "Day 2 · 29 Aug 2026, 2:00 PM - 5:00 PM"
-    ],
-    color: "from-green-500/20 to-green-600/20",
-    iconColor: "text-green-400",
-    borderColor: "border-green-500/30"
-  }
-];
+  const rounds = [
+    {
+      title: "Coding Eligibility Test",
+      icon: Brain,
+      description: "Prove you belong",
+      features: [
+        "Aptitude, Technical MCQs & Programming",
+        "90 minutes",
+        "Day 1 · 28 Aug 2026, 10:00 AM - 1:00 PM"
+      ],
+      color: "from-blue-500/20 to-blue-600/20",
+      iconColor: "text-blue-400",
+      borderColor: "border-blue-500/30"
+    },
+    {
+      title: "Coding Marathon",
+      icon: Sword,
+      description: "Prove your skills",
+      features: [
+        "10 programming problems, solo coding",
+        "Real-time leaderboard",
+        "Top 100 engineers qualify for Day 2",
+        "Day 1 · 28 Aug 2026, 2:00 PM - 5:00 PM"
+      ],
+      color: "from-purple-500/20 to-purple-600/20",
+      iconColor: "text-purple-400",
+      borderColor: "border-purple-500/30"
+    },
+    {
+      title: "Company Challenge Arena",
+      icon: Crown,
+      description: "Solve real problems",
+      features: [
+        "Pick your preferred company",
+        "Live coding evaluation on industry problems",
+        "Day 2 · 29 Aug 2026, 10:00 AM - 1:00 PM"
+      ],
+      color: "from-amber-500/20 to-amber-600/20",
+      iconColor: "text-amber-400",
+      borderColor: "border-amber-500/30"
+    },
+    {
+      title: "Interviews & Internship Release",
+      icon: Trophy,
+      description: "Claim your victory",
+      features: [
+        "Technical Interview (30-45 min) by company experts",
+        "HR Interview (20-30 min) — culture fit & alignment",
+        "Top performers receive an internship",
+        "Day 2 · 29 Aug 2026, 2:00 PM - 5:00 PM"
+      ],
+      color: "from-green-500/20 to-green-600/20",
+      iconColor: "text-green-400",
+      borderColor: "border-green-500/30"
+    }
+  ];
 
   return (
     <section className=" relative overflow-hidden">
@@ -79,7 +79,7 @@ const rounds = [
             Competition <span className="font-mono text-accent-primary bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent">Rounds</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-light leading-relaxed">
-            Three carefully crafted stages designed to test and enhance your coding abilities
+            Four carefully crafted stages designed to test and enhance your coding abilities
           </p>
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-accent-primary to-transparent mx-auto mt-8" />
         </div>
@@ -142,7 +142,7 @@ const rounds = [
             {/* Enhanced Glow effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-accent-primary/8 to-accent-secondary/8 dark:from-accent-primary/10 dark:to-accent-secondary/10 rounded-3xl blur-2xl opacity-50 dark:opacity-60 group-hover:opacity-75 dark:group-hover:opacity-100 transition-all duration-500" />
             
-            <Card className="relative max-w-5xl mx-auto bg-white dark:bg-card/95 border-2 border-gray-400 dark:border-accent-primary/30 backdrop-blur-sm group-hover:border-gray-500 dark:group-hover:border-accent-primary/50 transition-all duration-500 overflow-hidden shadow-2xl dark:shadow-xl hover:shadow-3xl dark:hover:shadow-2xl">
+            <Card className="relative max-w-6xl mx-auto bg-white dark:bg-card/95 border-2 border-gray-400 dark:border-accent-primary/30 backdrop-blur-sm group-hover:border-gray-500 dark:group-hover:border-accent-primary/50 transition-all duration-500 overflow-hidden shadow-2xl dark:shadow-xl hover:shadow-3xl dark:hover:shadow-2xl">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-accent-primary via-accent-secondary to-accent-primary"></div>
               
               <CardContent className="py-12 px-8">
@@ -157,10 +157,10 @@ const rounds = [
                 </div>
                 
                 <p className="text-lg text-gray-700 dark:text-muted-foreground mb-12 font-semibold max-w-2xl mx-auto leading-relaxed">
-                  Your path to success through three carefully designed stages
+                  Your path to success through four carefully designed stages
                 </p>
                 
-                <div className="flex items-center justify-center flex-wrap gap-6 md:gap-12">
+                <div className="flex flex-nowrap items-center justify-center gap-3 md:gap-5 overflow-x-auto">
                   {/* Online Test */}
                   <div className="flex flex-col items-center group/item hover:scale-105 transition-all duration-300">
                     <div className="relative mb-4">
@@ -170,17 +170,16 @@ const rounds = [
                       </div>
                     </div>
                     <span className="text-gray-900 dark:text-foreground font-bold group-hover/item:text-blue-500 dark:group-hover/item:text-blue-400 transition-colors duration-300">Online Test</span>
-                    <span className="text-xs text-gray-700 dark:text-muted-foreground/80 mt-1 font-bold">MCQ Round</span>
+                    <span className="text-xs text-gray-700 dark:text-muted-foreground/80 mt-1 font-bold">Eligibility Round</span>
                   </div>
-                  
-                  {/* Arrow 1 */}
+
                   <div className="hidden md:flex items-center gap-3">
-                    <div className="w-16 h-px bg-gradient-to-r from-blue-400 to-purple-400"></div>
+                    <div className="w-12 h-px bg-gradient-to-r from-blue-400 to-purple-400"></div>
                     <ChevronRight className="w-6 h-6 text-accent-primary animate-pulse" />
-                    <div className="w-16 h-px bg-gradient-to-r from-blue-400 to-purple-400"></div>
+                    <div className="w-12 h-px bg-gradient-to-r from-blue-400 to-purple-400"></div>
                   </div>
-                  
-                  {/* Campus Coding */}
+
+                  {/* Coding Marathon */}
                   <div className="flex flex-col items-center group/item hover:scale-105 transition-all duration-300">
                     <div className="relative mb-4">
                       <div className="absolute -inset-2 bg-purple-500/10 dark:bg-purple-500/20 rounded-2xl blur-lg opacity-0 group-hover/item:opacity-60 dark:group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -188,17 +187,34 @@ const rounds = [
                         <Code2 className="w-8 h-8 text-purple-500 dark:text-purple-400 group-hover/item:scale-110 transition-transform duration-300 drop-shadow-sm" />
                       </div>
                     </div>
-                    <span className="text-gray-900 dark:text-foreground font-bold group-hover/item:text-purple-500 dark:group-hover/item:text-purple-400 transition-colors duration-300">Campus Coding</span>
-                    <span className="text-xs text-gray-700 dark:text-muted-foreground/80 mt-1 font-bold">DSA Challenge + Industry Problems</span>
+                    <span className="text-gray-900 dark:text-foreground font-bold group-hover/item:text-purple-500 dark:group-hover/item:text-purple-400 transition-colors duration-300">Coding Marathon</span>
+                    <span className="text-xs text-gray-700 dark:text-muted-foreground/80 mt-1 font-bold">Top 100 Qualify</span>
                   </div>
-                  
-                  {/* Arrow 2 */}
+
                   <div className="hidden md:flex items-center gap-3">
-                    <div className="w-16 h-px bg-gradient-to-r from-purple-400 to-amber-400"></div>
+                    <div className="w-12 h-px bg-gradient-to-r from-purple-400 to-emerald-400"></div>
                     <ChevronRight className="w-6 h-6 text-accent-secondary animate-pulse" style={{animationDelay: '1s'}} />
-                    <div className="w-16 h-px bg-gradient-to-r from-purple-400 to-amber-400"></div>
+                    <div className="w-12 h-px bg-gradient-to-r from-purple-400 to-emerald-400"></div>
                   </div>
-                  
+
+                  {/* Company Arena */}
+                  <div className="flex flex-col items-center group/item hover:scale-105 transition-all duration-300">
+                    <div className="relative mb-4">
+                      <div className="absolute -inset-2 bg-emerald-500/10 dark:bg-emerald-500/20 rounded-2xl blur-lg opacity-0 group-hover/item:opacity-60 dark:group-hover/item:opacity-100 transition-opacity duration-300"></div>
+                      <div className="relative p-4 rounded-2xl bg-gradient-to-br from-emerald-500/30 to-emerald-600/20 dark:from-emerald-500/20 dark:to-emerald-600/10 border-2 border-emerald-500/60 dark:border-emerald-500/30 group-hover/item:border-emerald-400/80 dark:group-hover/item:border-emerald-400/50 group-hover/item:bg-emerald-500/40 dark:group-hover/item:bg-emerald-500/30 transition-all duration-300 shadow-xl dark:shadow-md group-hover/item:shadow-2xl dark:group-hover/item:shadow-lg">
+                        <Users className="w-8 h-8 text-emerald-500 dark:text-emerald-400 group-hover/item:scale-110 transition-transform duration-300 drop-shadow-sm" />
+                      </div>
+                    </div>
+                    <span className="text-gray-900 dark:text-foreground font-bold group-hover/item:text-emerald-500 dark:group-hover/item:text-emerald-400 transition-colors duration-300">Company Arena</span>
+                    <span className="text-xs text-gray-700 dark:text-muted-foreground/80 mt-1 font-bold">Industry Problems</span>
+                  </div>
+
+                  <div className="hidden md:flex items-center gap-3">
+                    <div className="w-12 h-px bg-gradient-to-r from-emerald-400 to-amber-400"></div>
+                    <ChevronRight className="w-6 h-6 text-accent-primary animate-pulse" style={{animationDelay: '2s'}} />
+                    <div className="w-12 h-px bg-gradient-to-r from-emerald-400 to-amber-400"></div>
+                  </div>
+
                   {/* Final Victory */}
                   <div className="flex flex-col items-center group/item hover:scale-105 transition-all duration-300">
                     <div className="relative mb-4">

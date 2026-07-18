@@ -22,80 +22,98 @@ import {
 const EventCalendarIntegration = () => {
   const [selectedEvent, setSelectedEvent] = useState<string | null>(null);
 
-  const events = [
-    {
-      id: "round1",
-      title: "Round 1: Red Light Green Light (Online MCQ)",
-      date: "2025-09-08",
-      time: "11:00 AM - 7:00 PM",
-      duration: "8 hours",
-      location: "Online Platform",
-      type: "online",
-      status: "upcoming",
-      description: "Online MCQ test covering basic programming concepts in C, C++, Python, and Java. Top 200+ participants qualify for Round 2.",
-      details: [
-        "8 hours duration",
-        "Multiple choice questions",
-        "C, C++, Python, Java concepts",
-        "200+ qualifiers for next round",
-        "National level participation"
-      ],
-      preparation: [
-        "Review basic programming concepts",
-        "Practice MCQs on data structures",
-        "Brush up on language syntax",
-        "Test your internet connection"
-      ]
-    },
-    {
-      id: "round2",
-      title: "Round 2: Battle Arena (Offline Coding)",
-      date: "2025-09-15",
-      time: "10:00 AM - 1:00 PM",
-      duration: "3 hours",
-      location: "ADCET Campus, Ashta, Sangli",
-      type: "offline",
-      status: "upcoming",
-      description: "Offline coding round focusing on Data Structures and Algorithms. Top 50 participants qualify for the final round.",
-      details: [
-        "3 hours intensive coding",
-        "DSA problem solving",
-        "On-campus competition",
-        "50 finalists selected",
-        "Real-time evaluation"
-      ],
-      preparation: [
-        "Master DSA concepts",
-        "Practice competitive programming",
-        "Solve previous year problems",
-        "Plan travel to campus"
-      ]
-    },
-    {
-      id: "round3",
-      title: "Round 3: Victory Quest (Final Round)",
-      date: "2025-09-15",
-      time: "2:00 PM - 5:00 PM",
-      duration: "3 hours",
-      location: "ADCET Campus, Ashta, Sangli",
-      type: "offline",
-      status: "upcoming",
-      description: "Final coding round evaluated by IT Industries with industry-based problems. Winners receive internship opportunities.",
-      details: [
-        "Industry-level problems",
-        "IT Industries evaluation",
-        "Internship opportunities",
-        "Championship titles",
-        "Professional networking"
-      ],
-      preparation: [
-        "Study real-world problems",
-        "Understand industry practices",
-        "Perfect your coding style",
-        "Prepare for interviews"
-      ]
-    }
-  ];
+ const events = [
+  {
+    id: "round1",
+    title: "Round 1: Coding Eligibility Test (Online MCQ)",
+    date: "2026-08-28",
+    time: "10:00 AM - 1:00 PM",
+    duration: "90 minutes",
+    location: "Online Platform",
+    type: "online",
+    status: "upcoming",
+    description: "Aptitude, technical MCQs and programming fundamentals in C, C++, Python, and Java.",
+    details: [
+      "90 minutes duration",
+      "Aptitude + technical MCQs",
+      "C, C++, Python, Java concepts",
+      "National level participation"
+    ],
+    preparation: [
+      "Review basic programming concepts",
+      "Practice aptitude & MCQs",
+      "Brush up on language syntax",
+      "Test your internet connection"
+    ]
+  },
+  {
+    id: "round2",
+    title: "Round 2: Coding Marathon",
+    date: "2026-08-28",
+    time: "2:00 PM - 5:00 PM",
+    duration: "3 hours",
+    location: "ADCET Campus, Ashta, Sangli",
+    type: "offline",
+    status: "upcoming",
+    description: "10 programming problems, solo coding with a real-time leaderboard. Top 100 engineers qualify for Day 2.",
+    details: [
+      "3 hours intensive coding",
+      "10 programming problems",
+      "Real-time leaderboard",
+      "Top 100 qualify for Day 2"
+    ],
+    preparation: [
+      "Master DSA concepts",
+      "Practice competitive programming",
+      "Solve previous year problems",
+      "Plan travel to campus"
+    ]
+  },
+  {
+    id: "round3",
+    title: "Round 3: Company Challenge Arena",
+    date: "2026-08-29",
+    time: "10:00 AM - 1:00 PM",
+    duration: "3 hours",
+    location: "ADCET Campus, Ashta, Sangli",
+    type: "offline",
+    status: "upcoming",
+    description: "Choose your preferred company and solve real industry problems with live coding evaluation.",
+    details: [
+      "Select preferred hiring company",
+      "Real-world industry problems",
+      "Live coding evaluation",
+      "25+ hiring partners"
+    ],
+    preparation: [
+      "Study real-world problems",
+      "Understand industry practices",
+      "Research participating companies"
+    ]
+  },
+  {
+    id: "round4",
+    title: "Round 4: Interviews & Internship Release",
+    date: "2026-08-29",
+    time: "2:00 PM - 5:00 PM",
+    duration: "3 hours",
+    location: "ADCET Campus, Ashta, Sangli",
+    type: "offline",
+    status: "upcoming",
+    description: "Technical Interview (30-45 min) followed by an HR Interview (20-30 min). Top performers receive an internship.",
+    details: [
+      "Technical Interview by company experts",
+      "HR Interview - culture fit & alignment",
+      "Internship offers released",
+      "Professional networking"
+    ],
+    preparation: [
+      "Perfect your coding style",
+      "Prepare for technical interviews",
+      "Prepare your career story for HR round"
+    ]
+  }
+];
 
   const generateCalendarLink = (event: any, type: 'google' | 'outlook' | 'apple' | 'ics') => {
     const startDate = new Date(`${event.date}T${event.time.split(' - ')[0].includes('AM') ? '11:00:00' : '14:00:00'}`);

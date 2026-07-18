@@ -21,58 +21,109 @@ const PastEventGallery = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const pastEvents = [
-    {
-      year: "2024",
-      title: "Codathon 2024 2025&: The Ultimate Coding Battle",
-      date: "September, 2024",
-      participants: 500,
-      location: "ADCET Campus, Ashta",
-      highlights: [
-        "Record 500+ participants",
-        "Many colleges represented", 
-        "Internship opportunities",
-        "Industry partnership with IT Industries"
-      ],
-      images: [
-        {
-          url: "/EventGallery/event1.jpeg",
-          caption: "Codathon 2024 - Participant registration",
-          type: "image"
-        },
-        {
-          url: "/EventGallery/event2.jpeg",
-          caption: "Participants engaged in intense coding sessions",
-          type: "image"
-        },
-        {
-          url: "/EventGallery/event3.jpeg",
-          caption: "Competition environment and focused programming",
-          type: "image"
-        },
-        {
-          url: "/EventGallery/event4.jpeg",
-          caption: "Award ceremony and winner announcements",
-          type: "image"
-        },
-        {
-          url: "/EventGallery/event5.jpeg",
-          caption: "Technical presentations and knowledge sharing",
-          type: "image"
-        },
-        {
-          url: "/EventGallery/event6.jpeg",
-          caption: "Memorable moments and group celebrations",
-          type: "image"
-        }
-      ],
-      video: {
-        url: "/EventGallery/event.mp4",
-        thumbnail: "/EventGallery/event1.jpeg",
-        caption: "Codathon 2024 - Official Event Highlights",
-        duration: "0.07"
+  {
+    year: "2025",
+    title: "Codathon 2025: Level Up",
+    date: "September, 2025",
+    participants: 500,
+    location: "ADCET Campus, Ashta",
+    highlights: [
+      "1000+ participants",
+      "Multiple colleges represented",
+      "Internship opportunities",
+      "Industry partnership with IT Industries"
+    ],
+    images: [
+      {
+        url: "/EventGallery/2025-event1.jpeg",
+        caption: "Codathon 2025 - Participant registration",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/2025-event2.jpeg",
+        caption: "Participants engaged in intense coding sessions",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/2025-event3.jpeg",
+        caption: "Competition environment and focused programming",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/2025-event4.jpeg",
+        caption: "Award ceremony and winner announcements",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/2025-event5.jpeg",
+        caption: "Technical presentations and knowledge sharing",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/2025-event6.jpeg",
+        caption: "Memorable moments and group celebrations",
+        type: "image"
       }
+    ],
+    video: {
+      url: "/EventGallery/2025-event.mp4",
+      thumbnail: "/EventGallery/2025-event1.jpeg",
+      caption: "Codathon 2025 - Official Event Highlights",
+      duration: "0.07"
     }
-  ];
+  },
+  {
+    year: "2024",
+    title: "Codathon 2024: The Ultimate Coding Battle",
+    date: "September, 2024",
+    participants: 500,
+    location: "ADCET Campus, Ashta",
+    highlights: [
+      "Record 1000 + participants",
+      "Many colleges represented", 
+      "Internship opportunities",
+      "Industry partnership with IT Industries"
+    ],
+    images: [
+      {
+        url: "/EventGallery/event1.jpeg",
+        caption: "Codathon 2024 - Participant registration",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/event2.jpeg",
+        caption: "Participants engaged in intense coding sessions",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/event3.jpeg",
+        caption: "Competition environment and focused programming",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/event4.jpeg",
+        caption: "Award ceremony and winner announcements",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/event5.jpeg",
+        caption: "Technical presentations and knowledge sharing",
+        type: "image"
+      },
+      {
+        url: "/EventGallery/event6.jpeg",
+        caption: "Memorable moments and group celebrations",
+        type: "image"
+      }
+    ],
+    video: {
+      url: "/EventGallery/event.mp4",
+      thumbnail: "/EventGallery/event1.jpeg",
+      caption: "Codathon 2024 - Official Event Highlights",
+      duration: "0.07"
+    }
+  }
+];
 
   const allImages = pastEvents.flatMap(event => 
     event.images.map(img => ({ ...img, eventYear: event.year, eventTitle: event.title }))
@@ -115,14 +166,14 @@ const PastEventGallery = () => {
             <span className="text-sm font-medium text-purple-600 dark:text-purple-400">Event Gallery</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            Inaugural Event
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-accent-primary to-accent-secondary">
-              Codathon 2024
-            </span>
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Relive the excitement and energy from our first-ever Codathon competition
-          </p>
+              Event
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-accent-primary to-accent-secondary">
+                Gallery
+              </span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Relive the excitement and energy from our previous Codathon competitions
+            </p>
         </div>
 
         {/* Events Timeline */}
