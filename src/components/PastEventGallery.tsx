@@ -36,7 +36,7 @@ const PastEventGallery = () => {
     images: [
       {
         url: "/EventGallery/2025-event1.jpeg",
-        caption: "Codathon 2025 - Participant registration",
+        caption: "Codathon 2025 Core Team and Organizers",
         type: "image"
       },
       {
@@ -46,7 +46,7 @@ const PastEventGallery = () => {
       },
       {
         url: "/EventGallery/2025-event3.jpeg",
-        caption: "Competition environment and focused programming",
+        
         type: "image"
       },
       {
