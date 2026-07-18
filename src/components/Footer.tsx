@@ -90,7 +90,7 @@ const Footer = () => {
                 <div className="p-2 rounded-lg bg-muted border border-border">
                   <Code className="w-4 h-4" />
                 </div>
-                <span className="font-light">C • Python • Java Programming</span>
+                <span className="font-light">C • C++ • Python • Java Programming</span>
               </div>
               
               <div className="flex items-center gap-3 text-muted-foreground">
@@ -120,7 +120,7 @@ const Footer = () => {
                 <span className="text-sm font-medium text-accent-primary">🏆 National Competition</span>
               </div>
               <div className="bg-gradient-to-r from-accent-secondary/20 to-accent-primary/20 border border-accent-secondary/30 rounded-full px-4 py-2">
-                <span className="text-sm font-medium text-accent-secondary">🎯 25 Years Excellence</span>
+                <span className="text-sm font-medium text-accent-secondary">🎯 26 Years Excellence</span>
               </div>
             </div>
           </div>
