@@ -10,7 +10,7 @@ const Rounds = () => {
       features: [
         "Aptitude, Technical MCQs & Programming",
         "90 minutes",
-        "Day 1 · 28 Aug 2026, 10:00 AM - 1:00 PM",
+        "Day 1 · 11 Sept 2026, 10:00 AM - 1:00 PM",
         "all round conduted in adcet campus"
       ],
       color: "from-blue-500/20 to-blue-600/20",
@@ -25,7 +25,7 @@ const Rounds = () => {
         "10 programming problems, solo coding",
         "Real-time leaderboard",
         "Top 100 engineers qualify for Day 2",
-        "Day 1 · 28 Aug 2026, 2:00 PM - 5:00 PM"
+        "Day 1 · 11 Sept 2026, 2:00 PM - 5:00 PM"
         
       ],
       color: "from-purple-500/20 to-purple-600/20",
@@ -39,7 +39,7 @@ const Rounds = () => {
       features: [
         "Pick your preferred company",
         "Live coding evaluation on industry problems",
-        "Day 2 · 29 Aug 2026, 10:00 AM - 1:00 PM"
+        "Day 2 · 11 Sept 2026, 10:00 AM - 1:00 PM"
       ],
       color: "from-amber-500/20 to-amber-600/20",
       iconColor: "text-amber-400",
@@ -53,7 +53,7 @@ const Rounds = () => {
         "Technical Interview (30-45 min) by company experts",
         "HR Interview (20-30 min) — culture fit & alignment",
         "Top performers receive an internship",
-        "Day 2 · 29 Aug 2026, 2:00 PM - 5:00 PM"
+        "Day 2 · 12 Sept 2026, 2:00 PM - 5:00 PM"
       ],
       color: "from-green-500/20 to-green-600/20",
       iconColor: "text-green-400",

@@ -10,7 +10,7 @@ const Rules = () => {
       rules: [
         "Only B.Tech students graduating in 2027 are eligible",
         "Individual participation only",
-        "50/- Rs registration fee",
+        "75/- Rs registration fee",
         "All engineering branches eligible"
       ]
     },
@@ -30,8 +30,8 @@ const Rules = () => {
       color: "red-400",
       rules: [
         "Absence in Round I = Elimination",
-        "Round II & III conducted offline",
-        "Registration deadline: 21 Aug 2026"
+        "All Rounds will be conducted offline",
+        "Registration deadline: 5 Sept 2026"
       ]
     },
     {

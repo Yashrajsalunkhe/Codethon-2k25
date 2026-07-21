@@ -26,7 +26,7 @@ const EventCalendarIntegration = () => {
   {
     id: "round1",
     title: "Round 1: Coding Eligibility Test (Online MCQ)",
-    date: "2026-08-28",
+    date: "2026-09-11",
     time: "10:00 AM - 1:00 PM",
     duration: "90 minutes",
     location: "Online Platform",
@@ -49,7 +49,7 @@ const EventCalendarIntegration = () => {
   {
     id: "round2",
     title: "Round 2: Coding Marathon",
-    date: "2026-08-28",
+    date: "2026-09-11",
     time: "2:00 PM - 5:00 PM",
     duration: "3 hours",
     location: "ADCET Campus, Ashta, Sangli",
@@ -72,7 +72,7 @@ const EventCalendarIntegration = () => {
   {
     id: "round3",
     title: "Round 3: Company Challenge Arena",
-    date: "2026-08-29",
+    date: "2026-09-12",
     time: "10:00 AM - 1:00 PM",
     duration: "3 hours",
     location: "ADCET Campus, Ashta, Sangli",
@@ -94,7 +94,7 @@ const EventCalendarIntegration = () => {
   {
     id: "round4",
     title: "Round 4: Interviews & Internship Release",
-    date: "2026-08-29",
+    date: "2026-09-12",
     time: "2:00 PM - 5:00 PM",
     duration: "3 hours",
     location: "ADCET Campus, Ashta, Sangli",
@@ -254,7 +254,7 @@ END:VCALENDAR`;
         {/* Countdown to Next Event */}
         <div className="max-w-md mx-auto mb-16">
           <CountdownTimer 
-            targetDate="2026-09-05T11:00:00"
+            targetDate="2026-09-11T11:00:00"
             title="Time Until Codathon 2026 Begins"
           />
         </div>

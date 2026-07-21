@@ -16,19 +16,19 @@ const FAQ = () => {
     },
     {
       question: "Is there any registration fee?",
-      answer: "Yes, 50/- Rs Fee to participate. Just register on Unstop and showcase your coding skills!"
+      answer: "Yes, 75/- Rs Fee to participate. Just register on Unstop and showcase your coding skills!"
     },
     {
       question: "What are the competition dates and timings?",
-      answer: "Round 1 (Coding Eligibility Test): 28 Aug 2026, 10:00 AM - 1:00 PM IST. Round 2 (Coding Marathon): 28 Aug 2026, 2:00 PM - 5:00 PM IST. Round 3 (Company Challenge Arena): 29 Aug 2026, 10:00 AM - 1:00 PM IST. Round 4 (Interviews & Internship Release): 29 Aug 2026, 2:00 PM - 5:00 PM IST. Rounds 1 & 2 on Day 1, Rounds 3 & 4 on Day 2 at ADCET campus, Ashta."
+      answer: "Round 1 (Coding Eligibility Test): 11 Sept 2026, 10:00 AM - 1:00 PM IST. Round 2 (Coding Marathon): 11 Sept 2026, 2:00 PM - 5:00 PM IST. Round 3 (Company Challenge Arena): 12 Sept 2026, 10:00 AM - 1:00 PM IST. Round 4 (Interviews & Internship Release): 12 Sept 2026, 2:00 PM - 5:00 PM IST. Rounds 1 & 2 on Day 1, Rounds 3 & 4 on Day 2 at ADCET campus, Ashta."
     },
     {
       question: "How many participants will qualify for each round?",
-     answer: "Round 1 & 2 (Day 1) narrow the field down to the Top 100 engineers. They advance to Round 3 & 4 on Day 2, where top performers receive internship offers from participating companies."
+     answer: "Round 1 & 2 (Day 1) narrow the field down to the Top 100 engineers (Day 1 rounds are Compulsory). They advance to Round 3 & 4 on Day 2, where top performers receive internship offers from participating companies."
      },
     {
-      question: "Do I need to come to the college for Round 2 & 3?",
-      answer: "Yes, all 4 rounds are conducted on campus (28-29 Aug 2026) at ADCET, Ashta, Sangli, Maharashtra. Accommodation arrangements can be discussed upon qualification."
+      question: "Do I need to come to the college for Rounds?",
+      answer: "Yes, all 4 rounds are conducted on campus (11-12 Sept 2026) at ADCET, Ashta, Sangli, Maharashtra. Accommodation arrangements can be discussed upon qualification."
      },
     {
       question: "What topics should I prepare for?",
@@ -40,11 +40,11 @@ const FAQ = () => {
     },
     {
       question: "How will I know if I qualify for the next round?",
-      answer: "Results will be announced on our official channels and Unstop platform. Qualified participants will receive email notifications with further instructions."
+      answer: "Results will be announced on our official channels. Qualified participants will receive email notifications with further instructions."
     },
     {
       question: "Can I participate as a team?",
-      answer: "Codathon 2026 is an individual competition. Each participant competes independently across all three rounds."
+      answer: "Codathon 2026 is an individual competition. Each participant competes independently across all rounds."
     }
   ];
 
