@@ -132,7 +132,7 @@ const EventCalendarIntegration = () => {
     };
 
     const title = encodeURIComponent(`Codathon 2026 - ${event.title}`);
-    const description = encodeURIComponent(`${event.description}\n\nLocation: ${event.location}\nDuration: ${event.duration}\n\nFor more info: https://codathon2025.adcet.ac.in`);
+    const description = encodeURIComponent(`${event.description}\n\nLocation: ${event.location}\nDuration: ${event.duration}\n\nFor more info: https://codathon2026.adcet.ac.in`);
     const location = encodeURIComponent(event.location);
 
     switch (type) {
@@ -146,7 +146,7 @@ const EventCalendarIntegration = () => {
         return `data:text/calendar;charset=utf8,BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
-URL:https://codathon2025.adcet.ac.in
+URL:https://codathon2026.adcet.ac.in
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}
 SUMMARY:${event.title}
@@ -187,7 +187,7 @@ END:VCALENDAR`;
     const link = generateCalendarLink(event, 'ics');
     const a = document.createElement('a');
     a.href = link;
-    a.download = `codathon-2025-${event.id}.ics`;
+    a.download = `codathon-2026-${event.id}.ics`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

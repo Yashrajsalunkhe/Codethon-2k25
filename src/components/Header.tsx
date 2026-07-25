@@ -112,7 +112,7 @@ const Header = () => {
             <Button 
               size="sm"
               className="hidden md:flex bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium"
-              onClick={() => window.open('https://unstop.com/p/codathon-2025-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
+              onClick={() => window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
             >
               <ExternalLink className="w-4 h-4 mr-2" />
               Register Now
@@ -155,7 +155,7 @@ const Header = () => {
                     size="sm"
                     className="w-full bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium"
                     onClick={() => {
-                      window.open('https://unstop.com/p/codathon-2025-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank');
+                      window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank');
                       setIsMobileMenuOpen(false);
                     }}
                   >

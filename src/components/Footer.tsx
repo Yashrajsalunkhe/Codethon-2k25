@@ -75,7 +75,7 @@ const Footer = () => {
             
             <div className="space-y-4">
               <a 
-                href="https://unstop.com/p/codathon-2025-annasaheb-dange-college-of-engineering-and-technolgy-1532053" 
+                href="https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-foreground hover:text-accent-primary transition-colors duration-300 group"
@@ -109,7 +109,7 @@ const Footer = () => {
             
             {/* Copyright */}
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
-              <span className="font-light">© 2025 ADCET Codathon. Made</span>
+              <span className="font-light">© 2026 ADCET Codathon. Made</span>
               <Heart className="w-4 h-4 text-red-400 animate-pulse" />
               <span className="font-light">by  Yashraj Salunkhe , Aditya Padale, Gaurav Kumbhare</span>
             </div>

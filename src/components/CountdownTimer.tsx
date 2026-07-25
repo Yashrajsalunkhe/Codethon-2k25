@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Clock, Calendar } from "lucide-react";
 
 interface CountdownTimerProps {
-  targetDate: string; // Format: "2025-09-08T00:09:00"
+  targetDate: string; // Format: "2026-09-08T00:09:00"
   title: string;
 }
 
