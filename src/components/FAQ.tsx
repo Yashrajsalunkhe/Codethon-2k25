@@ -71,7 +71,7 @@ const FAQ = () => {
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Everything you need to know about Codathon 2026. Can't find what you're looking for? 
             <a 
-              href="tel:+917768807185" 
+              href="tel:+918530750855" 
               className="text-accent-primary hover:text-accent-primary/80 ml-1 transition-colors"
             >
               Contact us
@@ -131,11 +131,11 @@ const FAQ = () => {
                 Our team is here to help you with any queries about Codathon 2026
               </p>
               <a 
-                href="tel:+917768807185"
+                href="tel:+918530750855"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium py-2 px-6 rounded-lg transition-all duration-300 hover:scale-105"
               >
                 <HelpCircle className="w-4 h-4" />
-                Contact Support: +91 77688 07185
+                Contact Support: +91 8530750855
               </a>
             </div>
           </div>
