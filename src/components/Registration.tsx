@@ -108,7 +108,7 @@ const Registration = () => {
                       variant="default" 
                       size="lg" 
                       className="relative w-full py-4 text-lg bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium rounded-xl transition-all duration-300 group-hover/btn:scale-105 shadow-xl"
-                      onClick={() => window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
+                      onClick={() => window.open('https://unstop.com/o/IDLVgTa?utm_medium=Share&utm_source=adcet_cesa&utm_campaign=Competitions', '_blank')}
                     >
                       <ExternalLink className="w-5 h-5 mr-3 group-hover/btn:scale-110 transition-transform duration-300" />
                       Register on Unstop

@@ -341,7 +341,7 @@ const Hero = () => {
                 variant="default" 
                 size="lg" 
                 className="relative px-10 py-4 bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium text-lg rounded-xl transition-all duration-300 group-hover:scale-105 shadow-xl"
-                onClick={() => window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
+                onClick={() => window.open('https://unstop.com/o/IDLVgTa?utm_medium=Share&utm_source=adcet_cesa&utm_campaign=Competitions', '_blank')}
               >
                 Register Now
                 <ArrowRight className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform duration-300" />
@@ -494,7 +494,7 @@ const Hero = () => {
                   <div className="relative group">
                     <div className="absolute inset-0 bg-gradient-to-r from-accent-primary to-accent-secondary rounded-xl blur-lg group-hover:blur-xl transition-all duration-300 opacity-50 dark:opacity-70" />
                     <Button
-                      onClick={() => window.open('https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053', '_blank')}
+                      onClick={() => window.open('https://unstop.com/o/IDLVgTa?utm_medium=Share&utm_source=adcet_cesa&utm_campaign=Competitions', '_blank')}
                       className="relative px-10 py-4 bg-gradient-to-r from-accent-primary to-accent-secondary hover:from-accent-primary/90 hover:to-accent-secondary/90 text-white font-medium text-lg rounded-xl transition-all duration-300 group-hover:scale-105 shadow-xl"
                     >
                       Register for Competition

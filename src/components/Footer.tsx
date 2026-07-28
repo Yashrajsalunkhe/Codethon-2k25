@@ -75,7 +75,7 @@ const Footer = () => {
             
             <div className="space-y-4">
               <a 
-                href="https://unstop.com/p/codathon-2026-annasaheb-dange-college-of-engineering-and-technolgy-1532053" 
+                href="https://unstop.com/o/IDLVgTa?utm_medium=Share&utm_source=adcet_cesa&utm_campaign=Competitions" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-foreground hover:text-accent-primary transition-colors duration-300 group"
