@@ -29,14 +29,14 @@ const Registration = () => {
   //   icon: User,
   //   gradient: "from-amber-500/20 to-amber-600/10"
   // },
-  {
-    name: "Abhay Raut",
-    phone: "+91 85307 50855",
-    email: "abhayraut37@gmail.com",
-    role: "Student Coordinator",
-    icon: User,
-    gradient: "from-green-500/20 to-green-600/10"
-  }  
+  // {
+  //   name: "Abhay Raut",
+  //   phone: "+91 85307 50855",
+  //   email: "abhayraut37@gmail.com",
+  //   role: "Student Coordinator",
+  //   icon: User,
+  //   gradient: "from-green-500/20 to-green-600/10"
+  // }  
 ];
 
   return (
